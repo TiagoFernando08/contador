@@ -4,6 +4,7 @@ while True:
  
     if tabuada < 0  or contador < 0:
         print("Para de tentar usar números negativos")
+        continue
 
     i = 0
     while i <= contador:
@@ -22,5 +23,6 @@ while True:
     else :
         print("Só tem 2 letras mano")
         break
+
 
 
